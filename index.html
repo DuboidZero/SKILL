@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>G - Main</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <div class="hero card" role="main" aria-labelledby="siteTitle">
+      <div class="hero-left">
+        <div class="brand">
+          <div class="logo">G</div>
+          <div>
+            <h1 id="siteTitle"></h1>
+            <div class="lead">Sign in or create an account to get started.</div>
+          </div>
+        </div>
+
+        <p style="color:var(--muted);margin-top:8px;">
+          Welcome. Use the buttons to navigate to Register, Login, or Contact pages.
+        </p>
+
+        <div class="btn-row" style="margin-top:16px;">
+          <a class="btn" href="register.html">Create account</a>
+          <a class="btn secondary" href="login.html">Login</a>
+          <a class="btn secondary" href="contact.html">Contact us</a>
+        </div>
+
+      </div>
+
+      <div class="hero-right" aria-hidden="true">
+        <div style="text-align:center;">
+          <svg width="150" height="150" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="#7be1ff"/><stop offset="1" stop-color="#3ac8ff"/>
+              </linearGradient>
+            </defs>
+            <rect x="6" y="10" rx="12" ry="12" width="88" height="80" fill="url(#g)" opacity="0.15"/>
+            <g fill="#e8fbff">
+              <circle cx="36" cy="40" r="6"></circle>
+              <rect x="46" y="30" width="34" height="20" rx="4"></rect>
+              <rect x="24" y="56" width="52" height="6" rx="3"></rect>
+            </g>
+          </svg>
+          <div style="color:var(--muted);margin-top:12px;">Website made by Dhruv Inamdar</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

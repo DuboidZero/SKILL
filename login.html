@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <form class="card" autocomplete="on" action="final.html" method="post" aria-label="Login form">
+      <div class="brand">
+        <div class="logo">G</div>
+        <div>
+          <h2>Welcome back</h2>
+          <div class="lead">Sign in to continue</div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="username">Username or Email</label>
+        <input class="input" id="username" name="username" type="text" required placeholder="you@example.com" />
+      </div>
+
+      <div class="form-row">
+        <label for="password">Password</label>
+        <input class="input" id="password" name="password" type="password" required placeholder="••••••••" />
+      </div>
+
+      <div class="form-row row-between">
+        <label style="font-size:0.9rem"><input type="checkbox" id="remember" name="remember" /> Remember me</label>
+        <a class="small" href="#">Forgot?</a>
+      </div>
+
+      <div class="form-row">
+        <button class="btn" type="submit">Login</button>
+      </div>
+
+      <div class="small">Don't have an account? <a href="register.html">Register here</a></div>
+    </form>
+  </div>
+</body>
+</html>

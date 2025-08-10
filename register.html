@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Register</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <form class="card" autocomplete="on" action="final.html" method="post" aria-label="Registration form">
+      <div class="brand">
+        <div class="logo">G</div>
+        <div>
+          <h2>Create account</h2>
+          <div class="lead">Register in seconds</div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="fullname">Full name</label>
+        <input class="input" id="fullname" name="fullname" type="text" required placeholder="Your name" />
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input class="input" id="email" name="email" type="email" required placeholder="you@example.com" />
+      </div>
+
+      <div class="form-row row-inline">
+        <div style="flex:1">
+          <label for="password">Password</label>
+          <input class="input" id="password" name="password" type="password" required placeholder="At least 8 characters" />
+        </div>
+        <div style="width:110px">
+          <label for="dob">DOB</label>
+          <input class="input" id="dob" name="dob" type="date" required />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="phone">Phone Number</label>
+        <input class="input" id="phone" name="phone" type="text" required placeholder="123-456-7890" />
+      </div>
+
+      <div class="form-row">
+        <label for="address">Address</label>
+        <input class="input" id="address" name="address" type="text" required placeholder="Street, City, Country" />
+      </div>
+
+      <div class="form-row">
+        <label style="font-size:0.9rem">
+          <input type="checkbox" id="terms" name="terms" required />
+          I agree to the terms and conditions
+        </label>
+      </div>
+
+      <div class="form-row">
+        <button class="btn" type="submit">Register</button>
+      </div>
+
+      <div class="small">Already have an account? <a href="login.html">Login here</a></div>
+    </form>
+  </div>
+</body>
+</html>
